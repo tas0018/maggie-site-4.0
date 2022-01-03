@@ -4,10 +4,12 @@ import "../styles/global.css"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Navbar from "../components/Navbar"
+import HeroSection from "../components/HeroSection"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
+    <HeroSection />
   </Layout>
 )
 

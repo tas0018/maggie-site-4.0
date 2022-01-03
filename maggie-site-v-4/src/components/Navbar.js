@@ -3,9 +3,12 @@ import { Link } from "gatsby"
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav
+      className="fixed w-screen flex justify-between px-12 h-16 items-center bg-transparent text-white z-50
+    "
+    >
       <h1>MW</h1>
-      <div className="navbar-links">
+      <div className="text-lg space-x-8">
         <Link to="/">Home</Link>
         <Link to="/">Counseling</Link>
         <Link to="/">About Therapy</Link>
