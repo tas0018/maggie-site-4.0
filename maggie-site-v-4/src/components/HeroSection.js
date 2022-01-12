@@ -4,8 +4,8 @@ function HeroSection() {
   return (
     <div className="w-full h-screen flex flex-col object-contain justify-center relative z-20">
       <video
-        className="object-cover w-full h-full fixed -z-20 opacity-80"
-        src="/videos/heroVideo.mp4"
+        className="object-cover w-full h-full absolute -z-20 opacity-80"
+        src="/videos/min-hero-video.mp4"
         autoPlay
         loop
         muted
@@ -25,7 +25,7 @@ function HeroSection() {
         </p>
 
         <a
-          href="#"
+          href="/"
           className="btn bg-white text-black hover:tracking-hero transition-all ease-in-out duration-300 "
         >
           Explore

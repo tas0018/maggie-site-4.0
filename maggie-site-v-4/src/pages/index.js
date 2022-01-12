@@ -5,11 +5,15 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Navbar from "../components/Navbar"
 import HeroSection from "../components/HeroSection"
+import HeroGrid from "../components/HeroGrid"
+import PoemSection from "../components/PoemSection"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <HeroSection />
+    <HeroGrid />
+    <PoemSection />
   </Layout>
 )
 
