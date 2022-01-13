@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar"
 import HeroSection from "../components/HeroSection"
 import HeroGrid from "../components/HeroGrid"
 import PoemSection from "../components/PoemSection"
+import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <HeroSection />
     <HeroGrid />
     <PoemSection />
+    <Footer />
   </Layout>
 )
 
