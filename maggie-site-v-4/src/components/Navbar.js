@@ -9,9 +9,10 @@ const Navbar = () => {
     >
       <h1>MW</h1>
       <div className="text-lg space-x-8">
-        <Link to="/">Counseling</Link>
+        <Link to="/">Welcome</Link>
+        <Link to="/faq/">FAQ</Link>
         <Link to="/">Therapy Sevices</Link>
-        <Link to="/">Meet Maggie</Link>
+        <Link to="/meetMaggie/">Meet Maggie</Link>
         <Link to="/">Contact</Link>
       </div>
     </nav>
