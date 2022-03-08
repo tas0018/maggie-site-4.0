@@ -6,6 +6,7 @@ module.exports = {
     },
     extend: {
       fontSize: {
+        "5xl": "4rem",
         "7xl": "5rem",
       },
 
@@ -26,6 +27,10 @@ module.exports = {
           800: "#211D26",
           900: "#050506",
         },
+      },
+
+      fontFamily: {
+        Alata: ["Alata", "sans-serif"],
       },
     },
   },

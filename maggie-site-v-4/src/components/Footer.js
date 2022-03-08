@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 function Footer() {
   return (
-    <div className="h-max flex bg-sky-900 text-white justify-around p-8">
+    <div className="h-max flex bg-[#F5F5F4] text-white justify-around p-8">
       <div className="flex flex-col justify-between">
         <div>
           <h3>Therapist in Auburn</h3>

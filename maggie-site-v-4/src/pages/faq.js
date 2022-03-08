@@ -5,10 +5,12 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import FaqHero from "../components/FaqHero"
 import Footer from "../components/Footer"
+import NavbarFAQ from "../components/NavbarFAQ"
 
 const FAQ = () => (
   <Layout>
     <Seo title="FAQ" />
+    <NavbarFAQ />
     <FaqHero />
     <div className="flex h-max w-screen py-20">
       <div className="flex flex-col pl-24 pr-6 w-6/12">

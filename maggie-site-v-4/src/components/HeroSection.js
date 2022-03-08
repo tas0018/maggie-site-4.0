@@ -28,7 +28,7 @@ function HeroSection() {
           href="/"
           className="btn bg-white text-black hover:tracking-hero transition-all ease-in-out duration-300 "
         >
-          Explore
+          Book a Session
         </a>
       </div>
     </div>
