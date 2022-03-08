@@ -1,11 +1,29 @@
 import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons"
+import FaqHeroImage from "../images/faqHero.png"
+import { Link } from "gatsby"
 
 function FaqHero() {
   return (
-    <div className="flex items-center justify-items-start h-80 bg-sky-900 px-12">
+    <div
+      className="flex flex-col items-center justify-center h-[70vh] bg-cover bg-no-repeat bg-center px-12"
+      style={{ backgroundImage: `url(${FaqHeroImage})` }}
+    >
       <h1 className="text-white text-4xl font-medium">
         Frequently Asked Questions
       </h1>
+      <div className="flex flex-row mt-2">
+        <Link className="text-white text-2xl font-medium px-2" to="/">
+          Home
+        </Link>
+
+        <FontAwesomeIcon className="text-white" icon={faAngleRight} size="2x" />
+
+        <Link className="text-white text-2xl font-medium px-2" to="/">
+          FAQ
+        </Link>
+      </div>
     </div>
   )
 }
