@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
 
         <div>
-          <Link to="/">Therapy Sevices</Link>
+          <Link to="/services/">Therapy Sevices</Link>
         </div>
 
         <div>

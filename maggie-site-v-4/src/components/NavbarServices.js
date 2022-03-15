@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
 
         <div>
-          <Link to="/">Therapy Sevices</Link>
+          <Link to="/services/">Therapy Sevices</Link>
           <div class="flex m-auto w-2 h-2 rounded-full bg-cyan-900"></div>
         </div>
 

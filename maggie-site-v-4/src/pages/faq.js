@@ -13,7 +13,7 @@ const FAQ = () => (
     <NavbarFAQ />
     <FaqHero />
 
-    <div className="flex h-max w-screen py-20">
+    <div className="flex h-max w-screen py-20 relative">
       <div className="flex flex-col px-4 w-full items-center">
         <div className="w-4/5 bg-gray-100 rounded-md mb-8">
           <div className="flex flex-row justify-between items-center">
