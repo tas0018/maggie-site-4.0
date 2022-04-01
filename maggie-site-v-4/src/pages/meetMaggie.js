@@ -9,7 +9,7 @@ function meetMaggie() {
   return (
     <div>
       <Layout />
-      <Seo title="Meet Maggie Williams" />
+
       <MeetHero />
       {/*Split Image and Quote Container */}
       <div className="flex h-full justify-center p-12">
