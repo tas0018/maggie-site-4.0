@@ -7,3 +7,11 @@
 .btn {
   @apply w-fit px-10 py-2 uppercase font-bold;
 }
+
+.active-tabs {
+  background-color: #214b59;
+}
+
+.active-content {
+  display: flex;
+}
