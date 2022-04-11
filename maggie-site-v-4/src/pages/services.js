@@ -14,7 +14,7 @@ function services() {
       <NavbarServices />
       <Seo title="Waters Therapy Services" />
       <ServicesHero />
-      <div className="flex flex-row w-full h-max py-8 px-12">
+      <div className="flex flex-row w-full h-full py-8 px-12">
         <div className="flex flex-col w-4/12 pl-28 pr-4">
           <div className=" flex flex-row items-center bg-[#214B59] text-[1.8rem] rounded-md border border-[#E7E7E7] h-12 mb-2">
             <h2 className="text-white ml-8">Services</h2>
@@ -68,7 +68,7 @@ function services() {
             <h3 className="text-[#556575] ml-8">Grief</h3>
           </div>
         </div>
-        <div className="flex flex-col w-8/12 pr-28 pl-8">
+        <div className="flex flex-col w-8/12 pr-28 pl-8 h-max">
           <div>
             <div
               className="w-full h-64 rounded-md bg-cover"
@@ -89,23 +89,29 @@ function services() {
                   Book Now
                 </Link>
               </div>
+            </div>
 
-              <div className="w-full h-fit my-2">
-                <p className="text-[#214B59] text-xl">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  An The point of using Lorem Ipsum is that it has a
-                  more-or-less normal distribution of letters, as opposed to
-                  using 'Contentre, content here.
+            <div className="w-full h-fit my-2">
+              <p className="text-[#353535] text-xl">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout. An
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using 'Contentre,
+                content here.
+              </p>
+            </div>
+
+            <div className="flex flex-row w-full h-max">
+              <div className="w-2/3 h-full flex-col">
+                <h3 className="text-[1.4rem] font-medium text-[#214B59]">
+                  Why do we use it?
+                </h3>
+                <p>
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 making it over 2000 years old. Richard McClintock, a
+                  Latin profesHampden.
                 </p>
-              </div>
-
-              <div className="flex flex-row w-full h-56">
-                <div className="w-2/3 h-full flex-col">
-                  <h3 className="text-[1.4rem] font-medium text-[#214B59]">
-                    Why do we use it?
-                  </h3>
-                </div>
               </div>
             </div>
           </div>
