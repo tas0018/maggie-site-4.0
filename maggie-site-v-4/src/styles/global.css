@@ -13,5 +13,18 @@
 }
 
 .active-content {
-  display: flex;
+  @apply block;
+}
+
+.tabs {
+  @apply flex flex-row items-center bg-[#E5E5E5] rounded-md border border-[#E7E7E7] h-12 mb-2
+  hover:bg-[#F5F6F0] hover:duration-200 ease-in-out duration-200;
+}
+
+.services-tab {
+  @apply flex flex-row items-center bg-[#214B59] text-[1.8rem] rounded-md border border-[#E7E7E7] h-12 mb-2;
+}
+
+.content {
+  @apply hidden;
 }

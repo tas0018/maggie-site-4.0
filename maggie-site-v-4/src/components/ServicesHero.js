@@ -17,7 +17,7 @@ function ServicesHero() {
 
         <FontAwesomeIcon className="text-white" icon={faAngleRight} size="2x" />
 
-        <Link className="text-white text-2xl font-medium px-2" to="/services/">
+        <Link className="text-white text-2xl font-medium px-2" to="/Services/">
           Services
         </Link>
       </div>
