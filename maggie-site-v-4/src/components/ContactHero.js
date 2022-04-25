@@ -1,14 +1,14 @@
 import React from "react"
-import MaggieHero from "../images/temp-Bulldog.jpg"
+import contactHeroImg from "../images/contact-hero.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "gatsby"
 
-function MeetHero() {
+function contactHero() {
   return (
     <div
       className="flex flex-col items-center justify-center h-[70vh] bg-cover bg-no-repeat bg-center px-12 bg-fixed"
-      style={{ backgroundImage: `url(${MaggieHero})` }}
+      style={{ backgroundImage: `url(${contactHeroImg})` }}
     >
       <h1 className="text-white text-4xl font-medium">Meet Maggie</h1>
       <div className="flex flex-row mt-2">
@@ -29,4 +29,4 @@ function MeetHero() {
   )
 }
 
-export default MeetHero
+export default contactHero

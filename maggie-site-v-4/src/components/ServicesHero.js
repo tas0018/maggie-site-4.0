@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 function ServicesHero() {
   return (
     <div
-      className="flex flex-col items-center justify-center h-[70vh] bg-cover bg-no-repeat bg-center px-12"
+      className="flex flex-col items-center justify-center h-[70vh] bg-cover bg-no-repeat bg-center px-12 bg-fixed"
       style={{ backgroundImage: `url(${ServicesHeroImage})` }}
     >
       <h1 className="text-white text-4xl font-medium">Our Services</h1>

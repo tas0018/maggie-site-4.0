@@ -23,7 +23,6 @@ const Navbar = () => {
 
         <div>
           <Link to="/faq/">FAQ</Link>
-          <div class="flex m-auto w-2 h-2 rounded-full bg-cyan-900"></div>
         </div>
 
         <div>
@@ -32,10 +31,11 @@ const Navbar = () => {
 
         <div>
           <Link to="/meetMaggie/">Meet Maggie</Link>
+          <div class="flex m-auto w-2 h-2 rounded-full bg-cyan-900"></div>
         </div>
 
         <div>
-          <Link to="/">Contact</Link>
+          <Link to="/Contact/">Contact</Link>
         </div>
       </div>
     </nav>

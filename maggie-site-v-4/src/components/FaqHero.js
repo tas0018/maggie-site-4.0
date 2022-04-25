@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 function FaqHero() {
   return (
     <div
-      className="flex flex-col items-center justify-center h-[70vh] bg-cover bg-no-repeat bg-center px-12"
+      className="flex flex-col items-center justify-center h-[70vh] bg-cover bg-no-repeat bg-center px-12 bg-fixed"
       style={{ backgroundImage: `url(${FaqHeroImage})` }}
     >
       <h1 className="text-white text-4xl font-medium">
