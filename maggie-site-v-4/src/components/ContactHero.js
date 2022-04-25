@@ -10,7 +10,7 @@ function contactHero() {
       className="flex flex-col items-center justify-center h-[70vh] bg-cover bg-no-repeat bg-center px-12 bg-fixed"
       style={{ backgroundImage: `url(${contactHeroImg})` }}
     >
-      <h1 className="text-white text-4xl font-medium">Meet Maggie</h1>
+      <h1 className="text-white text-4xl font-medium">Get in touch</h1>
       <div className="flex flex-row mt-2">
         <Link className="text-white text-2xl font-medium px-2" to="/">
           Home
@@ -22,7 +22,7 @@ function contactHero() {
           className="text-white text-2xl font-medium px-2"
           to="/meetMaggie/"
         >
-          About
+          Contact Us
         </Link>
       </div>
     </div>
