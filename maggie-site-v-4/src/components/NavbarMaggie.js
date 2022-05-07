@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
 
         <div>
-          <Link to="/meetMaggie/">Meet Maggie</Link>
+          <Link to="/MeetMaggie/">Meet Maggie</Link>
           <div class="flex m-auto w-2 h-2 rounded-full bg-cyan-900"></div>
         </div>
 

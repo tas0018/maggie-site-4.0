@@ -7,25 +7,41 @@ import { StaticImage } from "gatsby-plugin-image"
 import NavbarMaggie from "../components/NavbarMaggie"
 import { Link } from "gatsby"
 
-function meetMaggie() {
+function MeetMaggie() {
   return (
     <div className="">
       <Layout />
       <NavbarMaggie />
       <MeetHero />
       {/*Split Image and Quote Container */}
-      <div className="flex h-full justify-center p-12">
-        <div className="w-1/2 min-h-[80vh] relative ">
+      <div className="flex flex-col lg:flex-row h-full justify-center py-12 px-8 lg:px-12">
+        <div className="w-full lg:w-1/2 min-h-auto lg:min-h-[80vh] relative pb-12 lg:pb-0">
           <StaticImage
             src="../images/Group-pic-one.png"
             alt="Background flower image"
             objectFit="cover"
-            class="rounded-md left-[5%] absolute max-w-[80%]"
+            class="rounded-md left-[5%] absolute max-w-full lg:max-w-[80%] hidden lg:block"
+            layout="constrained"
+          ></StaticImage>
+
+          <StaticImage
+            src="../images/meet-pic-one.png"
+            alt="Background flower image"
+            objectFit="cover"
+            class="rounded-md max-w-full lg:max-w-[80%] block lg:hidden h-72"
+            layout="constrained"
+          ></StaticImage>
+
+          <StaticImage
+            src="../images/meet-pic-two.png"
+            alt="Background flower image"
+            objectFit="cover"
+            class="rounded-md max-w-full top-4 lg:max-w-[80%] block lg:hidden h-72"
             layout="constrained"
           ></StaticImage>
         </div>
 
-        <div className="w-1/2 flex items-center">
+        <div className="w-full lg:w-1/2 flex items-center">
           <div className="flex flex-col justify-between h-[80%]">
             <h2 className="text-[#556575] text-[1.8rem]">
               Who is Maggie Williams
@@ -44,11 +60,11 @@ function meetMaggie() {
               versions have evolved over the years, sometimes by accident,
               sometimes on purpose (injected humour and like).
             </p>
-            <div className="flex flex-row">
+            <div className="flex flex-row pt-12 lg:pt-0">
               <button className="h-full">
                 <Link
                   className="text-white py-4 px-8 bg-[#214B59] mr-4 rounded-md   w-fit font-medium text-sm hover:bg-[#F2F2F2]
-                  hover:text-[#556575] hover:duration-200 ease-in-out duration-200"
+                  hover:text-[#556575] hover:duration-200 ease-in-out duration-200 hidden"
                   to="/"
                 >
                   Read More
@@ -73,4 +89,4 @@ function meetMaggie() {
   )
 }
 
-export default meetMaggie
+export default MeetMaggie
