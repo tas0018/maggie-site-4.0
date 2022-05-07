@@ -29,7 +29,7 @@ const FAQ = () => (
       />
 
       <div className="flex flex-col px-4 w-full items-center">
-        <div className="w-[55%] bg-gray-100 rounded-md mb-8">
+        <div className="w-[90%] lg:w-[55%] bg-gray-100 rounded-md mb-8">
           <div className="flex flex-row justify-between items-center">
             <h2 className="p-8 text-cyan-900 text-xl font-medium">
               Do you accept insurance?
@@ -44,7 +44,7 @@ const FAQ = () => (
           </p>
         </div>
 
-        <div className="w-[55%] bg-gray-100 rounded-md mb-8">
+        <div className="w-[90%] lg:w-[55%] bg-gray-100 rounded-md mb-8">
           <div className="flex flex-row justify-between items-center">
             <h2 className="p-8 text-cyan-900 text-xl font-medium">
               Is therapy right for me?
@@ -61,7 +61,7 @@ const FAQ = () => (
           </p>
         </div>
 
-        <div className="w-[55%] bg-gray-100 rounded-md mb-8">
+        <div className="w-[90%] lg:w-[55%] bg-gray-100 rounded-md mb-8">
           <div className="flex flex-row justify-between items-center">
             <h2 className="p-8 text-cyan-900 text-xl font-medium">
               What is therapy like?
@@ -77,7 +77,7 @@ const FAQ = () => (
           </p>
         </div>
 
-        <div className="w-[55%] bg-gray-100 rounded-md mb-8">
+        <div className="w-[90%] lg:w-[55%] bg-gray-100 rounded-md mb-8">
           <div className="flex flex-row justify-between items-center">
             <h2 className="p-8 text-cyan-900 text-xl font-medium">
               What techniques or styles is your practice?
@@ -95,7 +95,7 @@ const FAQ = () => (
           </p>
         </div>
 
-        <div className="w-[55%] bg-gray-100 rounded-md mb-8">
+        <div className="w-[90%] lg:w-[55%] bg-gray-100 rounded-md mb-8">
           <div className="flex flex-row justify-between items-center">
             <h2 className="p-8 text-cyan-900 text-xl font-medium">
               How will therapy help you?
@@ -118,7 +118,7 @@ const FAQ = () => (
       <h2 className="flex pb-2 justify-center text-2xl text-[#475569] font-medium tracking-wider">
         Still have a question?
       </h2>
-      <p className="flex pb-16 justify-center text-xl text-[#475569] font-normal tracking-wide">
+      <p className="text-center flex flex-col lg:flex-row pb-16 justify-center text-xl text-[#475569] font-normal tracking-wide">
         <span>
           If you can not find answer to your questions in our FAQ, please
         </span>

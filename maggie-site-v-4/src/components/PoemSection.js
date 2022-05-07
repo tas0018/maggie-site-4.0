@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 function PoemSection() {
   return (
     <div className="h-max bg-cyan-900">
-      <div className="flex relative justify-center py-8">
+      <div className="flex relative justify-center py-8 px-4">
         <div className="flex flex-col text-center font-Alata">
           <h1 className="text-4xl text-white semi-bold py-8">Wild Geese</h1>
           <p className="text-xl py-1 text-white font-medium">

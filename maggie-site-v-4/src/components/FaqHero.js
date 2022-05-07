@@ -10,7 +10,7 @@ function FaqHero() {
       className="flex flex-col items-center justify-center h-[70vh] bg-cover bg-no-repeat bg-center px-12 bg-fixed"
       style={{ backgroundImage: `url(${FaqHeroImage})` }}
     >
-      <h1 className="text-white text-4xl font-medium">
+      <h1 className="text-white text-4xl font-medium text-center">
         Frequently Asked Questions
       </h1>
       <div className="flex flex-row mt-2">

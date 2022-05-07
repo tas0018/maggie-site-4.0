@@ -23,14 +23,14 @@ function Services() {
       <Seo title="Waters Therapy Services" />
       <ServicesHero />
       <StaticImage
-        src="../images/meet-pic-one.png"
+        src="../images/backgroundFlowerLeft.png"
         width={400}
         alt="Picture of Maggie Williams One"
         objectFit="cover"
         class="absolute left-0 top-1/2"
       ></StaticImage>
-      <div className="flex flex-row w-full h-full py-8 px-12">
-        <div className="flex flex-col w-4/12 pl-28 pr-4">
+      <div className="flex flex-col lg:flex-row w-full h-full py-8 lg:px-12 px-4">
+        <div className="flex flex-col w-full lg:w-4/12 pl-4 lg:pl-28 pr-4">
           <button
             className="services-tab"
             onClick={() => toggleTab(1)}
@@ -64,13 +64,13 @@ function Services() {
           </button>
         </div>
 
-        <div className="flex flex-col w-8/12 pr-28 pl-8 h-max">
+        <div className="flex flex-col w-full lg:w-8/12 pr-4 lg:pr-28 lg:pl-8 pl-4 h-max">
           <div className={toggleState === 1 ? "active-content" : "content"}>
             <div
               className="w-full h-64 rounded-md bg-cover"
               style={{ backgroundImage: `url(${ServicesImgHeader})` }}
             >
-              <div className="h-full w-3/5 flex flex-col p-8 justify-around ">
+              <div className="h-full w-full lg:w-3/5 flex flex-col p-8 justify-around ">
                 <h2 className="text-white text-[1.8rem]">Services</h2>
                 <p className="text-white text-sm">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
@@ -88,7 +88,7 @@ function Services() {
             </div>
 
             <div className="w-full h-fit my-2">
-              <p className="text-[#214B59] text-[1.4rem]">
+              <p className="text-[#214B59] text-[1.4rem] px-2 lg:px-0 ">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout. An
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -97,8 +97,8 @@ function Services() {
               </p>
             </div>
 
-            <div className="flex flex-row w-full min-h-32 pt-8">
-              <div className="w-4/5 min-h-28 flex flex-col justify-around pr-2">
+            <div className="flex flex-col lg:flex-row w-full min-h-32 pt-8">
+              <div className="w-full lg:w-4/5 min-h-28 flex flex-col justify-around pr-2 pb-4 lg:pb-0">
                 <h3 className="text-[1.4rem] font-medium text-[#214B59]">
                   Why do we use it?
                 </h3>
@@ -121,7 +121,7 @@ function Services() {
             </div>
 
             <div className="w-full h-fit mt-8">
-              <p className="text-[#214B59] text-[1.4rem]">
+              <p className="text-[#214B59] text-[1.4rem] px-2 lg:px-0 ">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout. An
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -193,7 +193,7 @@ function Services() {
               className="w-full h-64 rounded-md bg-cover"
               style={{ backgroundImage: `url(${ServicesImgHeader})` }}
             >
-              <div className="h-full w-3/5 flex flex-col p-8 justify-around ">
+              <div className="h-full w-full lg:w-3/5 flex flex-col p-8 justify-around ">
                 <h2 className="text-white text-[1.8rem]">Sexual Abuse</h2>
                 <p className="text-white text-sm">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
@@ -211,7 +211,7 @@ function Services() {
             </div>
 
             <div className="w-full h-fit my-2">
-              <p className="text-[#214B59] text-[1.4rem]">
+              <p className="text-[#214B59] text-[1.4rem] px-2 lg:px-0">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout. An
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -220,8 +220,8 @@ function Services() {
               </p>
             </div>
 
-            <div className="flex flex-row w-full min-h-32 pt-8">
-              <div className="w-4/5 min-h-28 flex flex-col justify-around pr-2">
+            <div className="flex flex-col lg:flex-row w-full min-h-32 pt-8">
+              <div className="w-full lg:w-4/5 min-h-28 flex flex-col justify-around pr-2 pb-4 lg:pb-0">
                 <h3 className="text-[1.4rem] font-medium text-[#214B59]">
                   Why do we use it?
                 </h3>
@@ -244,7 +244,7 @@ function Services() {
             </div>
 
             <div className="w-full h-fit mt-8">
-              <p className="text-[#214B59] text-[1.4rem]">
+              <p className="text-[#214B59] text-[1.4rem] px-2 lg:px-0">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout. An
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -316,7 +316,7 @@ function Services() {
               className="w-full h-64 rounded-md bg-cover"
               style={{ backgroundImage: `url(${ServicesImgHeader})` }}
             >
-              <div className="h-full w-3/5 flex flex-col p-8 justify-around ">
+              <div className="h-full w-full lg:w-3/5 flex flex-col p-8 justify-around ">
                 <h2 className="text-white text-[1.8rem]">Anxiety</h2>
                 <p className="text-white text-sm">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
@@ -334,7 +334,7 @@ function Services() {
             </div>
 
             <div className="w-full h-fit my-2">
-              <p className="text-[#214B59] text-[1.4rem]">
+              <p className="text-[#214B59] text-[1.4rem] px-2 lg:px-0">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout. An
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -343,8 +343,8 @@ function Services() {
               </p>
             </div>
 
-            <div className="flex flex-row w-full min-h-32 pt-8">
-              <div className="w-4/5 min-h-28 flex flex-col justify-around pr-2">
+            <div className="flex flex-col lg:flex-row w-full min-h-32 pt-8">
+              <div className="w-full lg:w-4/5 min-h-28 flex flex-col justify-around pr-2 pb-4 lg:pb-0">
                 <h3 className="text-[1.4rem] font-medium text-[#214B59]">
                   Why do we use it?
                 </h3>
@@ -367,7 +367,7 @@ function Services() {
             </div>
 
             <div className="w-full h-fit mt-8">
-              <p className="text-[#214B59] text-[1.4rem]">
+              <p className="text-[#214B59] text-[1.4rem] px-2 lg:px-0">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout. An
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -439,7 +439,7 @@ function Services() {
               className="w-full h-64 rounded-md bg-cover"
               style={{ backgroundImage: `url(${ServicesImgHeader})` }}
             >
-              <div className="h-full w-3/5 flex flex-col p-8 justify-around ">
+              <div className="h-full w-full lg:w-3/5 flex flex-col p-8 justify-around ">
                 <h2 className="text-white text-[1.8rem]">OCD</h2>
                 <p className="text-white text-sm">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
@@ -457,7 +457,7 @@ function Services() {
             </div>
 
             <div className="w-full h-fit my-2">
-              <p className="text-[#214B59] text-[1.4rem]">
+              <p className="text-[#214B59] text-[1.4rem] px-2 lg:px-0">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout. An
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -466,8 +466,8 @@ function Services() {
               </p>
             </div>
 
-            <div className="flex flex-row w-full min-h-32 pt-8">
-              <div className="w-4/5 min-h-28 flex flex-col justify-around pr-2">
+            <div className="flex flex-col lg:flex-row w-full min-h-32 pt-8">
+              <div className="w-full lg:w-4/5 min-h-28 flex flex-col justify-around pr-2 pb-4 lg:pb-0">
                 <h3 className="text-[1.4rem] font-medium text-[#214B59]">
                   Why do we use it?
                 </h3>
@@ -490,7 +490,7 @@ function Services() {
             </div>
 
             <div className="w-full h-fit mt-8">
-              <p className="text-[#214B59] text-[1.4rem]">
+              <p className="text-[#214B59] text-[1.4rem] px-2 lg:px-0">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout. An
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -562,7 +562,7 @@ function Services() {
               className="w-full h-64 rounded-md bg-cover"
               style={{ backgroundImage: `url(${ServicesImgHeader})` }}
             >
-              <div className="h-full w-3/5 flex flex-col p-8 justify-around ">
+              <div className="h-full w-full lg:w-3/5 flex flex-col p-8 justify-around ">
                 <h2 className="text-white text-[1.8rem]">Depression</h2>
                 <p className="text-white text-sm">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
@@ -580,7 +580,7 @@ function Services() {
             </div>
 
             <div className="w-full h-fit my-2">
-              <p className="text-[#214B59] text-[1.4rem]">
+              <p className="text-[#214B59] text-[1.4rem] px-2 lg:px-0">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout. An
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -589,8 +589,8 @@ function Services() {
               </p>
             </div>
 
-            <div className="flex flex-row w-full min-h-32 pt-8">
-              <div className="w-4/5 min-h-28 flex flex-col justify-around pr-2">
+            <div className="flex flex-col lg:flex-row w-full min-h-32 pt-8">
+              <div className="w-full lg:w-4/5 min-h-28 flex flex-col justify-around pr-2 pb-4 lg:pb-0">
                 <h3 className="text-[1.4rem] font-medium text-[#214B59]">
                   Why do we use it?
                 </h3>
@@ -613,7 +613,7 @@ function Services() {
             </div>
 
             <div className="w-full h-fit mt-8">
-              <p className="text-[#214B59] text-[1.4rem]">
+              <p className="text-[#214B59] text-[1.4rem] px-2 lg:px-0">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout. An
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -685,7 +685,7 @@ function Services() {
               className="w-full h-64 rounded-md bg-cover"
               style={{ backgroundImage: `url(${ServicesImgHeader})` }}
             >
-              <div className="h-full w-3/5 flex flex-col p-8 justify-around ">
+              <div className="h-full w-full lg:w-3/5 flex flex-col p-8 justify-around ">
                 <h2 className="text-white text-[1.8rem]">Recovery</h2>
                 <p className="text-white text-sm">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
@@ -703,7 +703,7 @@ function Services() {
             </div>
 
             <div className="w-full h-fit my-2">
-              <p className="text-[#214B59] text-[1.4rem]">
+              <p className="text-[#214B59] text-[1.4rem] px-2 lg:px-0">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout. An
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -712,8 +712,8 @@ function Services() {
               </p>
             </div>
 
-            <div className="flex flex-row w-full min-h-32 pt-8">
-              <div className="w-4/5 min-h-28 flex flex-col justify-around pr-2">
+            <div className="flex flex-col lg:flex-row w-full min-h-32 pt-8">
+              <div className="w-full lg:w-4/5 min-h-28 flex flex-col justify-around pr-2 pb-4 lg:pb-0">
                 <h3 className="text-[1.4rem] font-medium text-[#214B59]">
                   Why do we use it?
                 </h3>
@@ -736,7 +736,7 @@ function Services() {
             </div>
 
             <div className="w-full h-fit mt-8">
-              <p className="text-[#214B59] text-[1.4rem]">
+              <p className="text-[#214B59] text-[1.4rem] px-2 lg:px-0">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout. An
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -808,7 +808,7 @@ function Services() {
               className="w-full h-64 rounded-md bg-cover"
               style={{ backgroundImage: `url(${ServicesImgHeader})` }}
             >
-              <div className="h-full w-3/5 flex flex-col p-8 justify-around ">
+              <div className="h-full w-full lg:w-3/5 flex flex-col p-8 justify-around ">
                 <h2 className="text-white text-[1.8rem]">Grief</h2>
                 <p className="text-white text-sm">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
@@ -826,7 +826,7 @@ function Services() {
             </div>
 
             <div className="w-full h-fit my-2">
-              <p className="text-[#214B59] text-[1.4rem]">
+              <p className="text-[#214B59] text-[1.4rem] px-2 lg:px-0">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout. An
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -835,8 +835,8 @@ function Services() {
               </p>
             </div>
 
-            <div className="flex flex-row w-full min-h-32 pt-8">
-              <div className="w-4/5 min-h-28 flex flex-col justify-around pr-2">
+            <div className="flex flex-col lg:flex-row w-full min-h-32 pt-8">
+              <div className="w-full lg:w-4/5 min-h-28 flex flex-col justify-around pr-2 pb-4 lg:pb-0">
                 <h3 className="text-[1.4rem] font-medium text-[#214B59]">
                   Why do we use it?
                 </h3>
@@ -859,7 +859,7 @@ function Services() {
             </div>
 
             <div className="w-full h-fit mt-8">
-              <p className="text-[#214B59] text-[1.4rem]">
+              <p className="text-[#214B59] text-[1.4rem] px-2 lg:px-0">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout. An
                 The point of using Lorem Ipsum is that it has a more-or-less
