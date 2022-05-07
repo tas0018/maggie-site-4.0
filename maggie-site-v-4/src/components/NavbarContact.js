@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
 
         <div>
-          <Link to="/meetMaggie/">Meet Maggie</Link>
+          <Link to="/MeetMaggie/">Meet Maggie</Link>
         </div>
 
         <div>
