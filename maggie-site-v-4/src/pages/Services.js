@@ -8,6 +8,7 @@ import ServicesHero from "../components/ServicesHero"
 import ServicesImgHeader from "../images/ServicesImgHeader.png"
 import { StaticImage } from "gatsby-plugin-image"
 import { useState } from "react"
+import scrollTo from "gatsby-plugin-smoothscroll"
 
 function Services() {
   const [toggleState, setToggleState] = useState(1)
@@ -33,38 +34,86 @@ function Services() {
         <div className="flex flex-col w-full lg:w-4/12 pl-4 lg:pl-28 pr-4">
           <button
             className="services-tab"
-            onClick={() => toggleTab(1)}
+            onClick={() => {
+              toggleTab(1)
+              scrollTo("#scrollStart")
+            }}
             role={"tab"}
           >
             <h2 className="text-white ml-8">Services</h2>
           </button>
 
-          <button className="tabs" onClick={() => toggleTab(2)} role={"tab"}>
+          <button
+            className="tabs"
+            onClick={() => {
+              toggleTab(2)
+              scrollTo("#scrollStart")
+            }}
+            role={"tab"}
+          >
             <h3 className="text-[#556575] ml-8">Sexual Abuse</h3>
           </button>
 
-          <button className="tabs" onClick={() => toggleTab(3)} role={"tab"}>
+          <button
+            className="tabs"
+            onClick={() => {
+              toggleTab(3)
+              scrollTo("#scrollStart")
+            }}
+            role={"tab"}
+          >
             <h3 className="text-[#556575] ml-8">Anxiety</h3>
           </button>
 
-          <button className="tabs" onClick={() => toggleTab(4)} role={"tab"}>
+          <button
+            className="tabs"
+            onClick={() => {
+              toggleTab(4)
+              scrollTo("#scrollStart")
+            }}
+            role={"tab"}
+          >
             <h3 className="text-[#556575] ml-8">OCD</h3>
           </button>
 
-          <button className="tabs" onClick={() => toggleTab(5)} role={"tab"}>
+          <button
+            className="tabs"
+            onClick={() => {
+              toggleTab(5)
+              scrollTo("#scrollStart")
+            }}
+            role={"tab"}
+          >
             <h3 className="text-[#556575] ml-8">Depression</h3>
           </button>
 
-          <button className="tabs" onClick={() => toggleTab(6)} role={"tab"}>
+          <button
+            className="tabs"
+            onClick={() => {
+              toggleTab(6)
+              scrollTo("#scrollStart")
+            }}
+            role={"tab"}
+          >
             <h3 className="text-[#556575] ml-8">Recovery</h3>
           </button>
 
-          <button className="tabs" onClick={() => toggleTab(7)} role={"tab"}>
+          <button
+            className="tabs"
+            onClick={() => {
+              toggleTab(7)
+              scrollTo("#scrollStart")
+            }}
+            role={"tab"}
+          >
             <h3 className="text-[#556575] ml-8">Grief</h3>
           </button>
         </div>
 
-        <div className="flex flex-col w-full lg:w-8/12 pr-4 lg:pr-28 lg:pl-8 pl-4 h-max">
+        <div
+          className="flex flex-col w-full lg:w-8/12 pr-4 lg:pr-28 lg:pl-8 pl-4 h-max scroll-mt-20 snap-start"
+          id="scrollStart"
+        >
           <div className={toggleState === 1 ? "active-content" : "content"}>
             <div
               className="w-full h-64 rounded-md bg-cover"
