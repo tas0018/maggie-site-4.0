@@ -16,13 +16,17 @@ function contactHero() {
           Home
         </Link>
 
-        <FontAwesomeIcon className="text-white" icon={faAngleRight} size="2x" />
+        <FontAwesomeIcon
+          className="text-white mt-2"
+          icon={faAngleRight}
+          size="2x"
+        />
 
         <Link
           className="text-white text-2xl font-medium px-2"
           to="/meetMaggie/"
         >
-          Contact Us
+          Contact
         </Link>
       </div>
     </div>

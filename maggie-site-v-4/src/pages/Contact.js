@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import NavbarContact from "../components/NavbarContact"
 import ContactHero from "../components/ContactHero"
 import Seo from "../components/seo"
-import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import Footer from "../components/Footer"
 
@@ -25,8 +24,8 @@ function Contact() {
               action="https://getform.io/f/07917147-c669-46ce-9895-ddc565a56017"
               className="flex flex-col items-center "
             >
-              <div className="flex flex-row w-1/2 justify-between mt-4">
-                <label className="w-[49.5%]">
+              <div className="flex flex-col lg:flex-row w-full lg:w-1/2 items-center lg:justify-between mt-4">
+                <label className="w-4/5 lg:w-[49.5%]">
                   <h3>First Name*</h3>
                   <input
                     type="text"
@@ -36,7 +35,7 @@ function Contact() {
                   />
                 </label>
 
-                <label className="w-[49.5%]">
+                <label className="w-4/5 lg:w-[49.5%]">
                   <h3>Last Name*</h3>
                   <input
                     type="text"
@@ -47,8 +46,8 @@ function Contact() {
                 </label>
               </div>
 
-              <div className="flex flex-row w-1/2 justify-between mt-4">
-                <label className="w-[49.5%]">
+              <div className="flex flex-col lg:flex-row w-full lg:w-1/2 items-center lg:justify-between mt-4">
+                <label className="w-4/5 lg:w-[49.5%]">
                   <h3>Your Email*</h3>
                   <input
                     type="email"
@@ -58,7 +57,7 @@ function Contact() {
                   />
                 </label>
 
-                <label className="w-[49.5%]">
+                <label className="w-4/5 lg:w-[49.5%]">
                   <h3>Select Service*</h3>
                   <select
                     id="services"
@@ -72,7 +71,7 @@ function Contact() {
                 </label>
               </div>
 
-              <div className="flex flex-col w-1/2 justify-start items-start mt-4">
+              <div className="flex flex-col w-4/5 lg:w-1/2 justify-start items-start mt-4">
                 <h3>Your Message</h3>
                 <textarea
                   name="your message"
